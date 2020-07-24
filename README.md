@@ -26,3 +26,6 @@ Tested in RunKit + npm
 ```json
 [0.9246187232017233, 0.053066483117027, 0.017102609807958833, 0.005212183873290879, 7.591928654677703e-33]
 ```
+## Reference
+- [The NIPALS Algorithm](http://www.statistics4u.com/fundstat_eng/dd_nipals_algo.html)
+  > The NIPALS Algorithm gives more numerically accurate results when compared with the SVD of the covariance matrix, but is slower to calculate.
