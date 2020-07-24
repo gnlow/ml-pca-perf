@@ -5,10 +5,10 @@ Benchmark test for method options of [ml-pca package](https://github.com/mljs/pc
 Tested in RunKit + npm
 | method                     |   hz |
 |----------------------------|-----:|
-| `SVD`                      | 3075 |
-| `covarianceMatrix`         | 6244 |
-| `NIPALS`                   |  215 |
-| `NIPALS, {nCompNIPALS: 5}` |  123 |
+| `SVD`                      | 3099 |
+| `covarianceMatrix`         | 6405 |
+| `NIPALS`                   |  220 |
+| `NIPALS, {nCompNIPALS: 4}` |  129 |
 ## Result (`pca.getExplainedVariance()`)
 ### `SVD`
 ```json
@@ -22,9 +22,9 @@ Tested in RunKit + npm
 ```json
 [0.9457223216899879, 0.05427767831001216]
 ```
-### `NIPALS, {nCompNIPALS: 5}`
+### `NIPALS, {nCompNIPALS: 4}`
 ```json
-[0.9246187232017233, 0.053066483117027, 0.017102609807958833, 0.005212183873290879, 7.591928654677703e-33]
+[0.9246187232017233, 0.053066483117027, 0.017102609807958833, 0.005212183873290879]
 ```
 ## Reference
 - [The NIPALS Algorithm](http://www.statistics4u.com/fundstat_eng/dd_nipals_algo.html)
