@@ -1,5 +1,7 @@
 # ml-pca-perf
+Benchmark test for method options of [ml-pca package](https://github.com/mljs/pca)
 ## Method Benchmark test
+covarianceMatrix is the fastest.
 | method           |   hz |
 |------------------|-----:|
 | SVD              | 2733 |
