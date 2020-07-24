@@ -12,8 +12,8 @@ suite.add("SVD", () => {
 .add("NIPALS", () => {
     const pca = new PCA(dataset, {method: "NIPALS"})
 })
-.add("NIPALS, {nCompNIPALS: 5}", () => {
-    const pca = new PCA(dataset, {method: "NIPALS", nCompNIPALS: 5})
+.add("NIPALS, {nCompNIPALS: 4}", () => {
+    const pca = new PCA(dataset, {method: "NIPALS", nCompNIPALS: 4})
 })
 .on("complete", function(){
     console.log('Fastest is ' + this.filter('fastest').map('name'))
